@@ -1,12 +1,18 @@
 {
   "name": "ice-cream-calculator-backend",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend for Ice-Cream Calculator",
+  "main": "index.tsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node index.ts",
+    "start:dev": "tsnd index.ts"
   },
   "keywords": [],
   "author": "Rafał Rukat",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0"
+  }
 }
