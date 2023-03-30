@@ -1,0 +1,38 @@
+{
+    "env": {
+        "node": true,
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": ["airbnb", "eslint:recommended"]
+    ,
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console":
+            "warn",
+        "no-tabs": [
+            "error",
+            { "allowIndentationTabs": true }
+        ],
+        "no-unused-vars": "warn"
+    }
+}
